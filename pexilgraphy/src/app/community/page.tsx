@@ -1,11 +1,12 @@
-import Hero from '@/components/hero';
-import photographer from 'public/photographer.png';
+import Hero from "@/components/hero";
+import PageHeading from "@/components/pageheading";
+import photographer from "public/photographer.png";
 
 export default function Community() {
-    return (
-        <div className="flex min-h-screen items-center justify-between p-4">
-            <h1 className="font-bold text-orange-600 text-4xl mb-auto">Community Page</h1>
-            <Hero imgData={photographer} alt="photographer" title="person"/>
-        </div>
-    );
+  return (
+    <div className="flex w-11/12 min-h-screen justify-between p-4 mx-auto">
+      <PageHeading title="Community Page"/>
+      <Hero imgData={photographer} alt="photographer" title="person" />
+    </div>
+  );
 }
