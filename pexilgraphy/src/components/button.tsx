@@ -1,9 +1,9 @@
 import Link from "next/link";
 interface buttonType {
-  primary?: boolean,
-  navigation?: boolean,
-  href : string,
-  text: string  
+  primary?: boolean;
+  navigation?: boolean;
+  href: string;
+  text: string;
 }
 export default function Button(props: buttonType) {
   if (props.primary) {
@@ -17,18 +17,18 @@ export default function Button(props: buttonType) {
         </Link>
       </div>
     );
-  } else if(props.navigation){
+  } else if (props.navigation) {
     return (
       <div>
         <Link
           href={props.href}
           className="border-[#888888] border-2 font-bold px-4 rounded-md py-2 text-center text-green-600 transition ease-in-out hover:border-[#0593a2]/50 duration-300"
         >
-          {props.text} <span>--/\</span>
+          {props.text}
         </Link>
       </div>
     );
-  }else{
+  } else {
     return (
       <div>
         <Link

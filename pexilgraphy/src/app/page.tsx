@@ -1,3 +1,4 @@
+"use client"
 import Hero from "@/components/hero";
 import photographer from "public/photographer.png";
 import PageHeading from "@/components/pageheading";

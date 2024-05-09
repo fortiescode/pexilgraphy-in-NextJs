@@ -1,3 +1,4 @@
+"use client";
 import type { StaticImageData } from "next/image";
 import Image from "next/image";
 
@@ -9,7 +10,7 @@ interface HeroProps {
 
 export default function Hero(props: HeroProps) {
   return (
-    <div className="-z-10 absolute inset-0" >
+    <div className="-z-10 absolute inset-0">
       <Image
         src={props.imgData}
         alt={props.alt}
