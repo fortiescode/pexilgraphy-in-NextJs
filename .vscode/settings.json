@@ -1,5 +1,14 @@
 {
-    "files.autoSave": "afterDelay",
-    "editor.fontSize": 16,
-    "explorer.fileNesting.enabled": true
+  "files.autoSave": "afterDelay",
+  "editor.fontSize": 16,
+  "explorer.fileNesting.enabled": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true
+  },
+  "hide-files.files": []
 }
