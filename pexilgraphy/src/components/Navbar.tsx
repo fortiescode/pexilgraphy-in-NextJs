@@ -5,7 +5,7 @@ import Button from "@/components/button";
 
 export default function Navbar() {
   return (
-    <div className="w-11/12 md:flex md:justify-between md:items-center md:my-12 md:mx-auto">
+    <div className="w-11/12 md:flex md:justify-between md:items-center md:my-12 md:mx-auto container">
       <div className="flex md:justify-center pl-4 md:items-center relative items-start">
         <div className="overflow-hidden absolute md:-left-6 md:-top-8">
           <Image
@@ -18,7 +18,7 @@ export default function Navbar() {
           Pixelgraphy
         </h1>
       </div>
-      <div className="hidden md:flex md:items-center justify-center md:ml-auto gap-4 text-md text-slate-500">
+      <div className="hidden md:flex md:items-center text-xl justify-center md:ml-auto gap-4 text-md text-slate-500">
         <Link href="/">Home</Link>
         <Link href="/products">Products</Link>
         <Link href="/blogs">Blogs</Link>
