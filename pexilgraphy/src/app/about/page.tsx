@@ -4,7 +4,7 @@ import photographer from 'public/photographer.png';
 
 export default function About() {
     return (
-        <div className="flex w-11/12 min-h-screen justify-between p-4 mx-auto">
+        <div className="flex w-11/12 min-h-screen justify-between p-4 mx-auto container">
            <PageHeading title="About"/>
            <Hero imgData={photographer} alt="photographer" title="person"/>
         </div>
